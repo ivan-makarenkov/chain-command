@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ivmak\\ChainCommandBundle\\": "src/"
+      "Ivmak\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ivmak\\ChainCommandBundle\\Tests\\": "tests/"
+      "Ivmak\\Tests\\": "tests/"
     }
   },
   "scripts": {
