@@ -14,18 +14,24 @@
     "php": "^8.0"
   },
   "require-dev": {
+    "symfony/console": "^5.2",
+    "symfony/dependency-injection": "^5.2",
+    "symfony/framework-bundle": "^5.2",
+    "symfony/http-kernel": "^5.2",
+    "symfony/phpunit-bridge": "^5.2",
+    "symfony/yaml": "^5.2"
   },
   "config": {
     "sort-packages": true
   },
   "autoload": {
     "psr-4": {
-      "Ivmak\\": "src/"
+      "Ivmak\\ChainCommandBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ivmak\\Tests\\": "tests/"
+      "Ivmak\\ChainCommandBundle\\Tests\\": "tests/"
     }
   },
   "scripts": {
